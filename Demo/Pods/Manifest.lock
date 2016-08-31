@@ -1,0 +1,19 @@
+PODS:
+  - PSCountDownButton (1.0.0):
+    - PSWeakProxy
+  - PSWeakProxy (1.0.0)
+
+DEPENDENCIES:
+  - PSCountDownButton (from `../`)
+
+EXTERNAL SOURCES:
+  PSCountDownButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSCountDownButton: 31af3c5c73fdd858b71b38513a8288a1d3d42cf1
+  PSWeakProxy: 47594fb02ba3439aca41dde24cf3d59577e73593
+
+PODFILE CHECKSUM: 8ff83cda1822b10a567daafc507ef5b81fc7530d
+
+COCOAPODS: 1.0.1

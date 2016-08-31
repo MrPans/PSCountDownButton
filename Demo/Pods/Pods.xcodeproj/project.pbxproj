@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00ADE4CBB6A6FE9CF63509D6040C4D54 /* Pods-DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAF707ECE17997BD3F97DC35BE48C78 /* Pods-DemoTests-dummy.m */; };
+		249A0AFA7FF57CF377D7629804CA947A /* PSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8000758CE4B348436BC00070DC7980BD /* PSCountDownButton.m */; };
+		2591686C8EDDD1815CF1CC964DF42E32 /* PSWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68219F41618EA50EA76F51C00FEEC077 /* PSWeakProxy-dummy.m */; };
+		4D4D3A86F68BAAD6F9741C7E6B774FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5AA58E35DA8A1D4699C835A52A5DADA2 /* PSCountDownButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CAADA1B21EB4005A00B12A140EAB98 /* PSCountDownButton-dummy.m */; };
+		6077DBDF7329DB823E9406E441B925A8 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E586D8FF4DDC81BA20A6C394E3AC7514 /* Pods-Demo-dummy.m */; };
+		7C64F6C8B43D7DC513E1CB183218F874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7CF98E61C89C1538A3621EEB3875BBA9 /* PSWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC49663EA5950674E8E806E49EFD049 /* PSWeakProxy.m */; };
+		87D609B85C2939EEA3D4BC94D5D77DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9F9FC90E64053DCAC9F30D3D153889E9 /* PSCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 970C4782210608BEE8F1E29280B9CF40 /* PSCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD915F4DAEDBD7A6D633A09E2A04D8A5 /* PSWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FE9C80B28D9736F011277CE2FB2F74 /* PSWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2520DA245569700CCD313E185CE1251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E95A424CC5636B1306BD9CA428A9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8956A893D6A4D99A4378362EBAAE6315;
+			remoteInfo = PSCountDownButton;
+		};
+		8D81580E2BB5D00F225CD2B3F6307466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9718D280A90D00BDB5816C8FC1EB92E;
+			remoteInfo = PSWeakProxy;
+		};
+		D16C437D33F1C13CE5E01E6B1867370C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9718D280A90D00BDB5816C8FC1EB92E;
+			remoteInfo = PSWeakProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEE547D5DBF981552CC3618184315E6 /* PSWeakProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSWeakProxy.xcconfig; sourceTree = "<group>"; };
+		0F428331E2B791188E094995DAFCB4F1 /* libPods-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F6D287AF7EECC6CA67CECD2CCEEC72 /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		3B9088532473007DACF3FD0F43B000EF /* Pods-DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C279016B47E565AA48EA34C0474CEAF /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		46C0C92AA9592052F47418F64006CCA2 /* PSCountDownButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSCountDownButton.xcconfig; sourceTree = "<group>"; };
+		4EC49663EA5950674E8E806E49EFD049 /* PSWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSWeakProxy.m; path = PSWeakProxy/PSWeakProxy.m; sourceTree = "<group>"; };
+		4F4E6E3F08279C0471AF37FFB04DA07A /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		58807B500379F737E3707AA22CA6AAEE /* Pods-DemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTests-resources.sh"; sourceTree = "<group>"; };
+		68219F41618EA50EA76F51C00FEEC077 /* PSWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSWeakProxy-dummy.m"; sourceTree = "<group>"; };
+		68F38B026F32498892DA060174DA6162 /* PSCountDownButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCountDownButton-prefix.pch"; sourceTree = "<group>"; };
+		7A2639E5B4E19ED3B527B65C7A55D8A7 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		8000758CE4B348436BC00070DC7980BD /* PSCountDownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSCountDownButton.m; sourceTree = "<group>"; };
+		8779E97D6F65E7DEE05ED8A5BCC91DAA /* libPSWeakProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPSWeakProxy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970C4782210608BEE8F1E29280B9CF40 /* PSCountDownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSCountDownButton.h; sourceTree = "<group>"; };
+		A107FA33BB565AEBF6481931E4A566C0 /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7A36DCBCD1CF8641BBEFFB4D80A4E60 /* Pods-DemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		C040EA9DAB83913B7F4867A803F65C87 /* Pods-DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4CAADA1B21EB4005A00B12A140EAB98 /* PSCountDownButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSCountDownButton-dummy.m"; sourceTree = "<group>"; };
+		C8CCF51F6C17727864F94EC906799013 /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D29709DE9624669D2405475E6DC1334E /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7A2313CB29936DD679597EF1CEFCA4 /* libPSCountDownButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPSCountDownButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E586D8FF4DDC81BA20A6C394E3AC7514 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		E9AB383E7402B4825ABDF9D85BB79A93 /* PSWeakProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSWeakProxy-prefix.pch"; sourceTree = "<group>"; };
+		ED7DF2627FA6D3324CC926901F9FE323 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEAF707ECE17997BD3F97DC35BE48C78 /* Pods-DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTests-dummy.m"; sourceTree = "<group>"; };
+		F7FE9C80B28D9736F011277CE2FB2F74 /* PSWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSWeakProxy.h; path = PSWeakProxy/PSWeakProxy.h; sourceTree = "<group>"; };
+		FD0B3BB3346F9D74032BA69E0D8B8264 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F2538E81D784A4F33CB14ACC6891DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4D3A86F68BAAD6F9741C7E6B774FF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9655C3BD33FF39EF655BF8FDB7854E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2520DA245569700CCD313E185CE1251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5317793F60DF7F3BBF46ABA487764A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C64F6C8B43D7DC513E1CB183218F874 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC68C1B6591FF2471ECA72799646B05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D609B85C2939EEA3D4BC94D5D77DC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194008AE1E18EFE2D162C693C30E20B3 /* Pods-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C040EA9DAB83913B7F4867A803F65C87 /* Pods-DemoTests-acknowledgements.markdown */,
+				3B9088532473007DACF3FD0F43B000EF /* Pods-DemoTests-acknowledgements.plist */,
+				EEAF707ECE17997BD3F97DC35BE48C78 /* Pods-DemoTests-dummy.m */,
+				A7A36DCBCD1CF8641BBEFFB4D80A4E60 /* Pods-DemoTests-frameworks.sh */,
+				58807B500379F737E3707AA22CA6AAEE /* Pods-DemoTests-resources.sh */,
+				C8CCF51F6C17727864F94EC906799013 /* Pods-DemoTests.debug.xcconfig */,
+				A107FA33BB565AEBF6481931E4A566C0 /* Pods-DemoTests.release.xcconfig */,
+			);
+			name = "Pods-DemoTests";
+			path = "Target Support Files/Pods-DemoTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FF06180366D6FBF2F90BDE30AE60D67 /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B3BB3346F9D74032BA69E0D8B8264 /* Pods-Demo-acknowledgements.markdown */,
+				ED7DF2627FA6D3324CC926901F9FE323 /* Pods-Demo-acknowledgements.plist */,
+				E586D8FF4DDC81BA20A6C394E3AC7514 /* Pods-Demo-dummy.m */,
+				3C279016B47E565AA48EA34C0474CEAF /* Pods-Demo-frameworks.sh */,
+				29F6D287AF7EECC6CA67CECD2CCEEC72 /* Pods-Demo-resources.sh */,
+				4F4E6E3F08279C0471AF37FFB04DA07A /* Pods-Demo.debug.xcconfig */,
+				7A2639E5B4E19ED3B527B65C7A55D8A7 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D445777312E7BFD1B86678FEB40CF9A0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD8D2B87CD271A2923A04FDCB089C0F9 /* Pods */,
+				D17170DAA23F1A456BC17BBC080E7A72 /* Products */,
+				DF1AF0B724DE9E5E561E34D2E367B861 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BADDBF8C1045461F2311F5C4D801041C /* PSCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				970C4782210608BEE8F1E29280B9CF40 /* PSCountDownButton.h */,
+				8000758CE4B348436BC00070DC7980BD /* PSCountDownButton.m */,
+			);
+			path = PSCountDownButton;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8D2B87CD271A2923A04FDCB089C0F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8C40D5E807694A9D104EC04CD0FC7 /* PSWeakProxy */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D17170DAA23F1A456BC17BBC080E7A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29709DE9624669D2405475E6DC1334E /* libPods-Demo.a */,
+				0F428331E2B791188E094995DAFCB4F1 /* libPods-DemoTests.a */,
+				DB7A2313CB29936DD679597EF1CEFCA4 /* libPSCountDownButton.a */,
+				8779E97D6F65E7DEE05ED8A5BCC91DAA /* libPSWeakProxy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D445777312E7BFD1B86678FEB40CF9A0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C5613421C8D07E280C4115C1C3F4B /* PSCountDownButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DBD8C40D5E807694A9D104EC04CD0FC7 /* PSWeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				F7FE9C80B28D9736F011277CE2FB2F74 /* PSWeakProxy.h */,
+				4EC49663EA5950674E8E806E49EFD049 /* PSWeakProxy.m */,
+				DF0B60CC625EBE8430634859AF41D1C7 /* Support Files */,
+			);
+			path = PSWeakProxy;
+			sourceTree = "<group>";
+		};
+		DF0B60CC625EBE8430634859AF41D1C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEE547D5DBF981552CC3618184315E6 /* PSWeakProxy.xcconfig */,
+				68219F41618EA50EA76F51C00FEEC077 /* PSWeakProxy-dummy.m */,
+				E9AB383E7402B4825ABDF9D85BB79A93 /* PSWeakProxy-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PSWeakProxy";
+			sourceTree = "<group>";
+		};
+		DF1AF0B724DE9E5E561E34D2E367B861 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF06180366D6FBF2F90BDE30AE60D67 /* Pods-Demo */,
+				194008AE1E18EFE2D162C693C30E20B3 /* Pods-DemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EAA7827E5677EFB6703F6CF3E2FADF24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46C0C92AA9592052F47418F64006CCA2 /* PSCountDownButton.xcconfig */,
+				C4CAADA1B21EB4005A00B12A140EAB98 /* PSCountDownButton-dummy.m */,
+				68F38B026F32498892DA060174DA6162 /* PSCountDownButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/PSCountDownButton";
+			sourceTree = "<group>";
+		};
+		EE3C5613421C8D07E280C4115C1C3F4B /* PSCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				BADDBF8C1045461F2311F5C4D801041C /* PSCountDownButton */,
+				EAA7827E5677EFB6703F6CF3E2FADF24 /* Support Files */,
+			);
+			name = PSCountDownButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FC8C0712CF47011C11C5C112897F821 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9FC90E64053DCAC9F30D3D153889E9 /* PSCountDownButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F70DF941219A6011C27E1357D78D70B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD915F4DAEDBD7A6D633A09E2A04D8A5 /* PSWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8956A893D6A4D99A4378362EBAAE6315 /* PSCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34E990C3D8237CA94F7907FE1515B4D /* Build configuration list for PBXNativeTarget "PSCountDownButton" */;
+			buildPhases = (
+				74453FF4490925F29F0724F61C5EB387 /* Sources */,
+				AB9655C3BD33FF39EF655BF8FDB7854E /* Frameworks */,
+				3FC8C0712CF47011C11C5C112897F821 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A1BFF17840A2E0DF8CEC69C98EB1D5F /* PBXTargetDependency */,
+			);
+			name = PSCountDownButton;
+			productName = PSCountDownButton;
+			productReference = DB7A2313CB29936DD679597EF1CEFCA4 /* libPSCountDownButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CE5E45736F74317C3407A1ED05C137FD /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32DD0993F8B2F2342887CB84C3112EE /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				4290E1119D2BEF58C0E702524380E3C2 /* Sources */,
+				63F2538E81D784A4F33CB14ACC6891DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E026E3B4F5FD7DD1D71280510B4D0C3F /* PBXTargetDependency */,
+				CA368BC752270D8134C063A5EE5DB871 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = D29709DE9624669D2405475E6DC1334E /* libPods-Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9718D280A90D00BDB5816C8FC1EB92E /* PSWeakProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AEBC894F5D990C4CE525AEA1ECC34B /* Build configuration list for PBXNativeTarget "PSWeakProxy" */;
+			buildPhases = (
+				6343554BC0E336943FB98B2AD75786C7 /* Sources */,
+				E5317793F60DF7F3BBF46ABA487764A9 /* Frameworks */,
+				9F70DF941219A6011C27E1357D78D70B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSWeakProxy;
+			productName = PSWeakProxy;
+			productReference = 8779E97D6F65E7DEE05ED8A5BCC91DAA /* libPSWeakProxy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EDC2067E1B20B1FAE43CC6105E49E461 /* Pods-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA03FB292AC85961BF3270F9C8431D0 /* Build configuration list for PBXNativeTarget "Pods-DemoTests" */;
+			buildPhases = (
+				D436A424D1BFEA10C2ABB01AA4DDA717 /* Sources */,
+				FC68C1B6591FF2471ECA72799646B05F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DemoTests";
+			productName = "Pods-DemoTests";
+			productReference = 0F428331E2B791188E094995DAFCB4F1 /* libPods-DemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D17170DAA23F1A456BC17BBC080E7A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5E45736F74317C3407A1ED05C137FD /* Pods-Demo */,
+				EDC2067E1B20B1FAE43CC6105E49E461 /* Pods-DemoTests */,
+				8956A893D6A4D99A4378362EBAAE6315 /* PSCountDownButton */,
+				E9718D280A90D00BDB5816C8FC1EB92E /* PSWeakProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4290E1119D2BEF58C0E702524380E3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6077DBDF7329DB823E9406E441B925A8 /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6343554BC0E336943FB98B2AD75786C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591686C8EDDD1815CF1CC964DF42E32 /* PSWeakProxy-dummy.m in Sources */,
+				7CF98E61C89C1538A3621EEB3875BBA9 /* PSWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74453FF4490925F29F0724F61C5EB387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA58E35DA8A1D4699C835A52A5DADA2 /* PSCountDownButton-dummy.m in Sources */,
+				249A0AFA7FF57CF377D7629804CA947A /* PSCountDownButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436A424D1BFEA10C2ABB01AA4DDA717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ADE4CBB6A6FE9CF63509D6040C4D54 /* Pods-DemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1BFF17840A2E0DF8CEC69C98EB1D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSWeakProxy;
+			target = E9718D280A90D00BDB5816C8FC1EB92E /* PSWeakProxy */;
+			targetProxy = 8D81580E2BB5D00F225CD2B3F6307466 /* PBXContainerItemProxy */;
+		};
+		CA368BC752270D8134C063A5EE5DB871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSWeakProxy;
+			target = E9718D280A90D00BDB5816C8FC1EB92E /* PSWeakProxy */;
+			targetProxy = D16C437D33F1C13CE5E01E6B1867370C /* PBXContainerItemProxy */;
+		};
+		E026E3B4F5FD7DD1D71280510B4D0C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSCountDownButton;
+			target = 8956A893D6A4D99A4378362EBAAE6315 /* PSCountDownButton */;
+			targetProxy = 3E95A424CC5636B1306BD9CA428A9399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1514241ED673D8E3AFBEF04330E0AEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEE547D5DBF981552CC3618184315E6 /* PSWeakProxy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSWeakProxy/PSWeakProxy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1D12A6E365A6570F8B857AEF103C8D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C0C92AA9592052F47418F64006CCA2 /* PSCountDownButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSCountDownButton/PSCountDownButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53886268D3B8DA2FA7E2057B5F8CE100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A107FA33BB565AEBF6481931E4A566C0 /* Pods-DemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3430380F94C1EC421334CFE6C9C16BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CCF51F6C17727864F94EC906799013 /* Pods-DemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BAD1FF04542D29CE79126DD1B3C1166D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C0C92AA9592052F47418F64006CCA2 /* PSCountDownButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSCountDownButton/PSCountDownButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C17B2A66E8730033575BC52437342730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEE547D5DBF981552CC3618184315E6 /* PSWeakProxy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PSWeakProxy/PSWeakProxy-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C6D117E963F8C59E4B41EA5130F51FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4E6E3F08279C0471AF37FFB04DA07A /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB171D1A9BD4E29782670823A271EA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2639E5B4E19ED3B527B65C7A55D8A7 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AEBC894F5D990C4CE525AEA1ECC34B /* Build configuration list for PBXNativeTarget "PSWeakProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17B2A66E8730033575BC52437342730 /* Debug */,
+				1514241ED673D8E3AFBEF04330E0AEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA03FB292AC85961BF3270F9C8431D0 /* Build configuration list for PBXNativeTarget "Pods-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3430380F94C1EC421334CFE6C9C16BA /* Debug */,
+				53886268D3B8DA2FA7E2057B5F8CE100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32DD0993F8B2F2342887CB84C3112EE /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D117E963F8C59E4B41EA5130F51FBD /* Debug */,
+				DB171D1A9BD4E29782670823A271EA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34E990C3D8237CA94F7907FE1515B4D /* Build configuration list for PBXNativeTarget "PSCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD1FF04542D29CE79126DD1B3C1166D /* Debug */,
+				1D12A6E365A6570F8B857AEF103C8D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
