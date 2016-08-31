@@ -14,9 +14,5 @@
 
 @implementation ViewController
 
-- (IBAction)touchGoButton:(UIButton *)sender
-{
-    
-}
 
 @end
