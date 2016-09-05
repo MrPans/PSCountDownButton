@@ -6,14 +6,14 @@
 [![Platform][platform]][CocoaPods] 
 ![SwiftCompatible]
 
-A drop-in UIButton subclass,make countdown easy.
+A drop-in UIButton subclass makes countdown easy.
 ---
 
-It's painful that each project have to write a register module with sms verifcation. So, I just make some toys to make it easy.
+It's painful that each project has to write a register module with sms verification. So, I just make a toy to make it easy.
 
-`PSCountDownButton` was created for that. It doesn't concern what is it look like,which target should send action to. The only thing it handle for you is countdown.
+`PSCountDownButton` was created for that. It doesn't concentrate on what it looks like or which targets should be send action to. The only thing it handles for you is countdown.
 
-`PSCountDownButton` support both Code and Storyboard.
+`PSCountDownButton` supports both Code and Storyboard.
 
 ### Getting Start
 
