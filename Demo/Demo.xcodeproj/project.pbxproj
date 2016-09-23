@@ -198,6 +198,7 @@
 				TargetAttributes = {
 					3BC1163A1D76B2E2001C11BA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AE5B4P8L99;
 					};
 					3BC116531D76B2E2001C11BA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -473,9 +474,10 @@
 			baseConfigurationReference = 6C502AA7B75772A5D0F016F7 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AE5B4P8L99;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.PSCountDownButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -485,9 +487,10 @@
 			baseConfigurationReference = 3A055D94A2483C1077930231 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AE5B4P8L99;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = net.shengpan.PSCountDownButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
