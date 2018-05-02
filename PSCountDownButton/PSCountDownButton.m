@@ -41,9 +41,6 @@ NSInteger const DefaultLimitedSec = 30;
 
 - (void)setUp
 {
-    [self addTarget:self
-             action:@selector(countDown)
-   forControlEvents:UIControlEventTouchUpInside];
     self.normalTitle = self.currentTitle;
     [self setValue:@(UIButtonTypeCustom) forKey:@"buttonType"];
 }
