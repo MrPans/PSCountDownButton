@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PSCountDownButton"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "button for countdown"
   s.description  = <<-DESC
                     a drop-in button for countdown.
